@@ -1,0 +1,25 @@
+// Authentication
+export const LOGIN = {
+    ATTEMPT: 'LOGIN_ATTEMPT',
+    FAILED: 'LOGIN_FAILED',
+    SUCCEED: 'LOGIN_SUCCEED'
+}
+
+export const LOGOUT = {
+    ATTEMPT: 'LOGOUT_ATTEMPT',
+    FAILED: 'LOGOUT_FAILED',
+    SUCCEED: 'LOGOUT_SUCCEED'
+}
+
+// Job Posts
+export const JOB_LIST = {
+    ATTEMPT: 'JOB_LIST_ATTEMPT',
+    FAILED: 'JOB_LIST_FAILED',
+    SUCCEED: 'JOB_LIST_SUCCEED'
+}
+
+export const JOB_DETAIL = {
+    ATTEMPT: 'JOB_DETAIL_ATTEMPT',
+    FAILED: 'JOB_DETAIL_FAILED',
+    SUCCEED: 'JOB_DETAIL_SUCCEED'
+}
