@@ -25,7 +25,7 @@ const Detail = () =>
     return (
         <HelmetProvider>
             <Helmet>
-                <title>Detail - GitHub Jobs</title>
+                <title>Detail - Mini Job Portal</title>
             </Helmet>
 
             <Layout>

@@ -28,12 +28,16 @@ const Home = () =>
         navigate(`/?${params.toString()}`)
         setPage(1)
 
+        const res = {
+            succeed: data => setJobList(data.jobs)
+        }
+
         dispatch(jobListAction({
             description,
             location,
             full_time: fullTime ? 'true' : '',
             page: 1
-        }))
+        }, res))
     }
 
     const handleLoadMore = () =>
@@ -64,7 +68,7 @@ const Home = () =>
     return (
         <HelmetProvider>
             <Helmet>
-                <title>Home - GitHub Jobs</title>
+                <title>Home - Mini Job Portal</title>
             </Helmet>
 
             <Layout>

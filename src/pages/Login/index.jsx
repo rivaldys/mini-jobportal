@@ -40,7 +40,7 @@ const Login = () =>
     return (
         <HelmetProvider>
             <Helmet>
-                <title>Login - GitHub Jobs</title>
+                <title>Login - Mini Job Portal</title>
             </Helmet>
             <div className="bg-blue-50/20">
                 <div className="min-h-screen 2xl:w-7/12 xl:w-10/12 w-full 2xl:px-0 px-6 mx-auto lg:py-24 py-10 flex justify-end">
